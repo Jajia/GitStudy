@@ -9,6 +9,7 @@ public class HelloWorldController {
     public String hello() {
         System.out.println("hello world");
         System.out.println("this is master branch");
+        System.out.println("this is master 2");
         return "hello";
     }
 }
