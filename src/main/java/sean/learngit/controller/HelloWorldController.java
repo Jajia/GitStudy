@@ -10,6 +10,7 @@ public class HelloWorldController {
         System.out.println("hello world");
         System.out.println("master");
         System.out.println("testing5");
+        System.out.println("testing7");
         return "hello";
     }
 }
