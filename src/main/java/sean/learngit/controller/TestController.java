@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("/master")
     public String master() {
+        System.out.println("master");
         return "master";
     }
 }
