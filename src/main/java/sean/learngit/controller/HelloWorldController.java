@@ -9,6 +9,7 @@ public class HelloWorldController {
     public String hello() {
         System.out.println("hello world");
         System.out.println("master");
+        System.out.println("testing5");
         return "hello";
     }
 }
